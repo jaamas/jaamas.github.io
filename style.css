@@ -1,0 +1,26 @@
+body {
+  margin-top: 80px;
+}
+
+h1, .nav-item, p, h2, h3 {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #F4F4F4;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #333333;
+}
+
+.v-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 250px;
+}
+
+.product, .img-responsive {
+    margin: 0 auto;
+}
